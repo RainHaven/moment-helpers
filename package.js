@@ -15,6 +15,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('moment-helpers');
+  api.use('rainhaven:moment-helpers');
   api.addFiles('moment-helpers-tests.js');
 });
