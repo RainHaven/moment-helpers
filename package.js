@@ -1,7 +1,7 @@
 Package.describe({
   name: 'rainhaven:moment-helpers',
   summary: 'A few helpers for moment and blaze',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/RainHaven/moment-helpers.git'
 });
 

@@ -1,6 +1,10 @@
 # Moment Extras
 A few helpers for Moment and Blaze
 
+## Install
+```sh
+meteor add rainhaven:moment-helpers
+```
 
 ## Moment Helpers
 ```js
@@ -9,12 +13,12 @@ A few helpers for Moment and Blaze
 moment.today();
 
 // Get the beginning of whatever date is passed in
-// Example: moment.startOfDay(new Date) 
+// Example: moment.startOfDay(new Date)
 moment.startOfDay(date)
 
-// Get the beginning of the month relative to what 
+// Get the beginning of the month relative to what
 // date is passed in
-// Example: moment.startOfMonth(new Date) 
+// Example: moment.startOfMonth(new Date)
 moment.startOfMonth(date)
 
 // Subtract specified days from the specified date
@@ -36,15 +40,16 @@ moment.addDays(days, date);
 
 // Return Sun-Mon
 {{dayOfWeekStrAbbrv date}}
- 
+
 // Return 0-31
 {{dayOfMonthInt date}}
 
 // Return date with passed in string format
 // Example: {{formatDate date 'MMMM DD YYYY'}}
 {{formatDate date format}}
-	
+
 // Return today with passed in string format
 // formate is optional and will default to 'MMMM DD YYYY'
-{{todaysDate format}}	
+{{todaysDate format}}
+
 ```
